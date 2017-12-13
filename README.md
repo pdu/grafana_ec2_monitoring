@@ -52,6 +52,18 @@ Run the script every minute as a cron job.
 	 - Generate the dashboard setting based on the template
  - Delete dashboard for the destroyed EC2 instances
 
+## alerts setting
+
+ - Send email when CPU avg usage > 90% in the last 5 mins
+ - Send pagerduty when CPU avg usage > 90% in the last 30 mins
+ - Send email when Memory avg usage > 90% in the last 5 mins
+ - Send pagerduty when Memory avg usage > 90% in the last 30 mins
+ - Send pagerduty when Disk avg usage > 90% in the last 5 mins
+ - Send email when Network avg RX rate > 60MB/s in the last 5 mins
+ - Send email when Network avg TX rate > 60MB/s in the last 5 mins
+ - Send email when Network avg RX error > 0 in the last 5 mins
+ - Send email when Network avg TX error > 0 in the last 5 mins
+
 # Troubleshooting
 
 ## can not get the full list of dashboard from Grafana
